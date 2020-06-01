@@ -244,6 +244,10 @@ span{
 .info li{
   margin-bottom: 16px;
 }
+.info li a{
+  color:white;
+  text-decoration: none;
+}
 .icon{
   width: 200px;
   display: flex;
