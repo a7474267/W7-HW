@@ -53,7 +53,7 @@ table {
 }
 .wrap{
   position:relative;
-  width: 1920px;
+  max-width: 1200px;
   margin:0 auto;
   display:flex;
   flex-direction: column;
@@ -63,7 +63,7 @@ table {
   margin-bottom: 72px;
 }
 .container{
-  width: 1200px;
+  max-width: 1200px;
   margin:0 auto;
   display:flex;
   flex-direction: column;
@@ -206,7 +206,6 @@ span{
   margin-bottom: 8px;
 }
 .footer{
-  width: 1920px;
   height: 401px;
   background:#415165;
   display:flex;
@@ -214,7 +213,7 @@ span{
   align-items: center;
 }
 .contact h2{
-  width: 1200px;
+  max-width: 1200px;
   text-align: center;
   border-bottom:1px solid #FFFFFF;
   font-size: 32px;
@@ -258,7 +257,7 @@ span{
   top:1400px;
   left:0;
   background: #96A9C4;
-  width: 1920px;
+  width: 1500px;
   height: 360px;
   z-index: -1;
 }
